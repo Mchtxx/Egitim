@@ -1,17 +1,38 @@
-﻿class SaySuIcer{
-    public string name="Enes";
-    public int age = 24;
-    public string surname="Aydın";
+﻿
 
-    public string Say(){
-        return name + " Su İçer.";
+using System;
+ 
+namespace LearningCSharp
+{
+    class Program
+    {
+        static void Main(string[] args)
+        {
+            Console.WriteLine(Person("Mücahit","Daldal","20"));
+            
+        }
+ 
+        void SayHello()
+        {
+            Console.WriteLine("Merhaba Dünya");
+        }
+
+        int YasHesapla(int Number1,int number2)
+        {
+
+            return Number1+number2;
+
+        }
+
+        string Person(string Name,string Surname,string age)
+        {
+           
+
+            return Name + Surname + age;
+
+
+        
+        }
     }
 }
-
-class Program {
-    static void Main(string[] args) {
-        SaySuIcer newPerson = new SaySuIcer();
-        Console.WriteLine(newPerson.Say());
-       
-    }
-}
+ 
