@@ -1,33 +1,47 @@
-﻿using System;
- 
-namespace LearningCSharp
-{
-    class Program
+﻿//Inheritance kullanımı
+
+
+class Car {
+    public string Model;
+    public string Renk;
+    public string ModelYili;
+
+    //Constructer
+    public Car (string model,string renk, string modelyili)
     {
-        static void Main(string[] args)
-        {
-            Console.WriteLine("Hello World!");
-            Console.WriteLine(Sum(1, 2, 3));
-            Console.WriteLine(Sum("Hello", " ", "World"));
-            Console.WriteLine(Person("Mücahit","Daldal","20"));
-        
-        }
- 
+        Model=model;
+        Renk=renk;
+        ModelYili=modelyili;
 
-        static string Person(string Name,string Surname , string age)
-        {
+    }
 
-            return Name + " " +Surname + " " + age ;
+   public string OzellikleriniGoster()
+    {
+        return Model + Renk + ModelYili;
+    }
+}
 
-        }
-        static int Sum(int a, int b, int c)
-        {
-            return a + b + c;
-        }
- 
-        static string Sum(string a, string b, string c)
-        {
-            return a + b + c;
-        }
+class SUV : Car
+{
+    public string Cekis ;
+
+     public SUV (string model,string renk, string modelyili,string cekis)
+     :base(model,renk,modelyili)
+    {    
+       Cekis= cekis;
+    }
+    public string SUVOzellikGoster()
+    {
+        return Model+Renk+ModelYili+Cekis;
+    }
+    
+}
+
+
+class Program {
+    static void Main(string[] args) {
+       SUV Dacia=new SUV("SUV","Kırmızı","2012","4X4");
+        Console.WriteLine(Dacia.OzellikleriniGoster());
+    
     }
 }
