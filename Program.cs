@@ -1,6 +1,6 @@
 ﻿class SaySuIcer{
     public string name="Enes";
-    public string surname = "duman";
+    public int age = 24;
 
     public string Say(){
         return name + " Su İçer.";
