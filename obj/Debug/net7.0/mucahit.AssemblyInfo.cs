@@ -13,7 +13,7 @@ using System.Reflection;
 [assembly: System.Reflection.AssemblyCompanyAttribute("mucahit")]
 [assembly: System.Reflection.AssemblyConfigurationAttribute("Debug")]
 [assembly: System.Reflection.AssemblyFileVersionAttribute("1.0.0.0")]
-[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0+866f1d642bffdc9284f116e2fc0e1d8c0b8b3b45")]
+[assembly: System.Reflection.AssemblyInformationalVersionAttribute("1.0.0")]
 [assembly: System.Reflection.AssemblyProductAttribute("mucahit")]
 [assembly: System.Reflection.AssemblyTitleAttribute("mucahit")]
 [assembly: System.Reflection.AssemblyVersionAttribute("1.0.0.0")]
