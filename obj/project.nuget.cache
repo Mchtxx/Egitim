@@ -1,13 +1,8 @@
 {
   "version": 2,
-  "dgSpecHash": "i8ldiDcpwcNQs8F3cGKzkGw2pUsOjtDcIZ7Qvq7ccnJFSl3td7AMRlowU3p9Zpk25mXnfNCvy5B89ySWnoHdeA==",
+  "dgSpecHash": "ycHqIZD4rCiscPYDDNJUC7wkL6uahdlWDaWQzZxpASfHlg4qRFwHc2nLrL4e6twoAbC3WE1HBFEbdLa65Fu5fA==",
   "success": true,
-  "projectFilePath": "C:\\Users\\Omer\\Desktop\\mucahit\\Egitim\\mucahit.csproj",
-  "expectedPackageFiles": [
-    "C:\\Users\\Omer\\.nuget\\packages\\microsoft.netcore.app.ref\\7.0.15\\microsoft.netcore.app.ref.7.0.15.nupkg.sha512",
-    "C:\\Users\\Omer\\.nuget\\packages\\microsoft.windowsdesktop.app.ref\\7.0.15\\microsoft.windowsdesktop.app.ref.7.0.15.nupkg.sha512",
-    "C:\\Users\\Omer\\.nuget\\packages\\microsoft.aspnetcore.app.ref\\7.0.15\\microsoft.aspnetcore.app.ref.7.0.15.nupkg.sha512",
-    "C:\\Users\\Omer\\.nuget\\packages\\microsoft.netcore.app.host.win-x64\\7.0.15\\microsoft.netcore.app.host.win-x64.7.0.15.nupkg.sha512"
-  ],
+  "projectFilePath": "C:\\Users\\dwlda\\mucahit\\mucahit.csproj",
+  "expectedPackageFiles": [],
   "logs": []
 }

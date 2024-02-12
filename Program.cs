@@ -1,6 +1,4 @@
-﻿
-
-using System;
+﻿using System;
  
 namespace LearningCSharp
 {
@@ -8,31 +6,28 @@ namespace LearningCSharp
     {
         static void Main(string[] args)
         {
+            Console.WriteLine("Hello World!");
+            Console.WriteLine(Sum(1, 2, 3));
+            Console.WriteLine(Sum("Hello", " ", "World"));
             Console.WriteLine(Person("Mücahit","Daldal","20"));
-            
+        
         }
  
-        void SayHello()
-        {
-            Console.WriteLine("Merhaba Dünya");
-        }
 
-        int YasHesapla(int Number1,int number2)
+        static string Person(string Name,string Surname , string age)
         {
 
-            return Number1+number2;
+            return Name + " " +Surname + " " + age ;
 
         }
-
-        string Person(string Name,string Surname,string age)
+        static int Sum(int a, int b, int c)
         {
-           
-
-            return Name + Surname + age;
-
-
-        
+            return a + b + c;
+        }
+ 
+        static string Sum(string a, string b, string c)
+        {
+            return a + b + c;
         }
     }
 }
- 
