@@ -1,0 +1,15 @@
+C:\Users\dwlda\mucahit\bin\Debug\net7.0\mucahit.exe
+C:\Users\dwlda\mucahit\bin\Debug\net7.0\mucahit.deps.json
+C:\Users\dwlda\mucahit\bin\Debug\net7.0\mucahit.runtimeconfig.json
+C:\Users\dwlda\mucahit\bin\Debug\net7.0\mucahit.dll
+C:\Users\dwlda\mucahit\bin\Debug\net7.0\mucahit.pdb
+C:\Users\dwlda\mucahit\obj\Debug\net7.0\mucahit.csproj.AssemblyReference.cache
+C:\Users\dwlda\mucahit\obj\Debug\net7.0\mucahit.GeneratedMSBuildEditorConfig.editorconfig
+C:\Users\dwlda\mucahit\obj\Debug\net7.0\mucahit.AssemblyInfoInputs.cache
+C:\Users\dwlda\mucahit\obj\Debug\net7.0\mucahit.AssemblyInfo.cs
+C:\Users\dwlda\mucahit\obj\Debug\net7.0\mucahit.csproj.CoreCompileInputs.cache
+C:\Users\dwlda\mucahit\obj\Debug\net7.0\mucahit.dll
+C:\Users\dwlda\mucahit\obj\Debug\net7.0\refint\mucahit.dll
+C:\Users\dwlda\mucahit\obj\Debug\net7.0\mucahit.pdb
+C:\Users\dwlda\mucahit\obj\Debug\net7.0\mucahit.genruntimeconfig.cache
+C:\Users\dwlda\mucahit\obj\Debug\net7.0\ref\mucahit.dll
