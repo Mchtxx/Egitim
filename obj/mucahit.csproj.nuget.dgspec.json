@@ -1,17 +1,17 @@
 {
   "format": 1,
   "restore": {
-    "C:\\Users\\dwlda\\mucahit\\mucahit.csproj": {}
+    "c:\\Users\\dwlda\\mucahit\\mucahit.csproj": {}
   },
   "projects": {
-    "C:\\Users\\dwlda\\mucahit\\mucahit.csproj": {
+    "c:\\Users\\dwlda\\mucahit\\mucahit.csproj": {
       "version": "1.0.0",
       "restore": {
-        "projectUniqueName": "C:\\Users\\dwlda\\mucahit\\mucahit.csproj",
+        "projectUniqueName": "c:\\Users\\dwlda\\mucahit\\mucahit.csproj",
         "projectName": "mucahit",
-        "projectPath": "C:\\Users\\dwlda\\mucahit\\mucahit.csproj",
+        "projectPath": "c:\\Users\\dwlda\\mucahit\\mucahit.csproj",
         "packagesPath": "C:\\Users\\dwlda\\.nuget\\packages\\",
-        "outputPath": "C:\\Users\\dwlda\\mucahit\\obj\\",
+        "outputPath": "c:\\Users\\dwlda\\mucahit\\obj\\",
         "projectStyle": "PackageReference",
         "fallbackFolders": [
           "C:\\Program Files (x86)\\Microsoft Visual Studio\\Shared\\NuGetPackages"
