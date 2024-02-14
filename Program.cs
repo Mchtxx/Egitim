@@ -5,22 +5,28 @@ namespace LearningCSharp
     class Program
    
     {
-        // overloading =Aşırı Yükleme 
-        //aynı isimde farklı parametrelerel aynı işi yapmak 
+        //Overwritting = parent classın metodunun üzerine yazma
 
-      static  int add(int x,int y)
-      {
-        return x+y;
-      }
+        class Canli
+        {
+            public void Eat(){
+                Console.WriteLine("Et Ürünü");
+            }
+        }
 
-      static int add(int x,int y,int z)
-      {
-        return x+y+z;
-      }
+        class Insan:Canli
+        {
+            public void Eat(){
+                Console.WriteLine("Sebze Ürünü");
+            }
+        }
+
+     
         static void Main(string[] args)
         {
-            Console.WriteLine(add(5,9,6));
-            Console.WriteLine(add(5,4));
+            Insan Enes=new Insan();
+            Enes.Eat();
+         
 
         }
     }
