@@ -5,29 +5,23 @@ namespace LearningCSharp
     class Program
    
     {
-        // method to add two numbers
+        // overloading =Aşırı Yükleme 
+        //aynı isimde farklı parametrelerel aynı işi yapmak 
 
-       static int Topla(int Number1,int Number2)
-       {
-        return Number1+Number2;
-       }
+      static  int add(int x,int y)
+      {
+        return x+y;
+      }
 
-     static void Toplama(int x,int y)
-     {
-        Console.WriteLine((double)(x+y)/2);
-     }
-      static void Namewrite(string Name)
-     {
-        Console.WriteLine("Merhaba Ben "+Name);
-     }
- 
-       
+      static int add(int x,int y,int z)
+      {
+        return x+y+z;
+      }
         static void Main(string[] args)
         {
-           // int Toplam=Topla(10,5);
-            //Console.WriteLine(Toplam); 
-            //Toplama(5,6);
-            Namewrite("Enes");
+            Console.WriteLine(add(5,9,6));
+            Console.WriteLine(add(5,4));
+
         }
     }
 }
